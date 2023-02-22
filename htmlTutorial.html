@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+
+<head>
+    <style>
+        .mainContainer {
+            height: 100vh;
+            width: 100vw;
+            background-color: whiteSmoke;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display: block;
+             flex-direction: column;
+            /*  border : 2px solid black;*/
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .header-sub1 {
+            /* border:2px solid red;*/
+            padding: 4px;
+            margin: 5px;
+        }
+
+        .header-top {
+            /* border :2px solid red; */
+            height: fit-content;
+            position: relative;
+            left: 8px;
+        }
+
+        h2 {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbarItem{
+            border-right:1px solid white;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .navbar {
+            /* border : 2px solid black; */
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            background-color: red;
+            
+        }
+
+        .bodyContainer {
+            /*     border:2px solid black; */
+            height: 100%;
+            margin: 5px;
+            padding: 5px;
+        }
+        .bodyContent >p{
+            color :blueviolet
+        }
+        div +p{
+            color :red;
+        }
+
+        .bodyHeading {
+            padding: 5px;
+            /*    border:2px solid red;*/
+        }
+
+        .bh1 {
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .bh2 {
+            color: red;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="mainContainer">
+
+        <div class="header">
+            <div class="header-sub1">
+                <div class="header-top">
+                    <H2> CARTLIDGE'S</H2>
+                </div>
+                <div class="header-down">
+                    Quality Meats
+                </div>
+            </div>
+
+
+            <div class="navbar">
+                <div class="navbarItem">Home</div>
+                <div class="navbarItem">Services</div>
+                <div class="navbarItem">About Us</div>
+                <div class="navbarItem">Contact Us</div>
+                <div class="navbarItem">Help</div>
+            </div>
+        </div>
+
+        <div class="bodyContainer">
+            <div class="bodyHeading">
+                <div class="bh1"> Cartlidges Quality Meats</div>
+                <div class="bh2"> "609-396-3966"</div>
+            </div>
+            <div class="bodyContent">
+                <h3> About Us</h3>
+                <div class="bodyInnerContent">
+                    This is demo text, we writing a sample document , Ok so We are making a front end static website .
+                    <br>I used here br tag break row , its our first day of technical training.
+                    <p>I want to color only line </p>
+                </div>
+                    <p>I am the boss</p>
+            </div>
+
+                <p>hey hey hye</p>
+                <p>hi hi hi</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<p>hi this is not going to color in red</p>
